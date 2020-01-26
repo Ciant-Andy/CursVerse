@@ -3,29 +3,27 @@ package by.iba.gomel.controllers;
 import by.iba.gomel.entity.Verse;
 import by.iba.gomel.service.VerseService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.messaging.handler.annotation.MessageMapping;
+import org.springframework.messaging.handler.annotation.SendTo;
+import org.springframework.web.bind.annotation.*;
 
-import java.util.Optional;
 
-@Controller
+@CrossOrigin(origins = "*", allowedHeaders = "*")
+@RestController
 public class VerseController {
     @Autowired
     VerseService verseService;
-/*
+
     @MessageMapping("/sendverse")
     @SendTo("/topic/activity")
-    public  String change(String text){
-        return text;
+    public  Verse change(Verse verse){
+        return verseService.save(verse);
     }
-    */
+
 
     @GetMapping("/verse/{id}")
-    public Optional<Verse> getVerse(@PathVariable Long id){
-        return verseService.findByVerseId(id);
+    public Verse getVerse(@PathVariable Long id){
+        return verseService.findByVerseId(id).get();
     }
 
     @PostMapping("/verse")

@@ -12,6 +12,6 @@ import javax.persistence.Id;
 public class Verse {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     private String text;
 }
