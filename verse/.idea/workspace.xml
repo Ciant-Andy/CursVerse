@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9385ea78-5cd3-4e90-87ee-ad31a1d72e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/iba/gomel/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/iba/gomel/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/iba/gomel/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/iba/gomel/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/iba/gomel/security/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/iba/gomel/security/SiteUserDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/iba/gomel/security/SiteUserDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/iba/gomel/controllers/VerseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/iba/gomel/controllers/VerseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/iba/gomel/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/iba/gomel/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/iba/gomel/entity/Verse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/iba/gomel/entity/Verse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/iba/gomel/controllers/VerseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/iba/gomel/controllers/VerseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/iba/gomel/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/iba/gomel/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/iba/gomel/entity/Verse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/iba/gomel/entity/Verse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verse.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/iba/gomel/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/iba/gomel/security/SecurityConfiguration.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

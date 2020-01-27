@@ -38,10 +38,13 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             http
                     .csrf().disable()
                     .authorizeRequests()
-                    .antMatchers("/**")
+                    .antMatchers("/verse")
                     .hasRole("ADMIN")
                     .and()
-                    .httpBasic();
+                    .formLogin()
+                    .loginPage("http://localhost:3000/login")
+                    .loginProcessingUrl("/perform_login")
+                    .defaultSuccessUrl("/lol",true);
     }
     @Bean
     public PasswordEncoder getPasswordEncorder(){
